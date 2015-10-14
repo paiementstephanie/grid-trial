@@ -26,17 +26,7 @@ body{
 	margin: 0em;
 }
 
-
-.grid{
-	background-color: blue;
-}
-
-
-.unit{
-	float:left;
-	background-color: gray;
-}
-
-.unit:nth-child(odd){
-	background-color: hotpink;
+.gutter{
+	padding-left: 1em;
+	padding-right: 1em;
 }
