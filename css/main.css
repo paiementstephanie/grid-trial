@@ -17,4 +17,26 @@ html {
 
 *, *::before, *::after {
 	box-sizing: inherit;
+	overflow: hidden;
+}
+
+
+
+body{
+	margin: 0em;
+}
+
+
+.grid{
+	background-color: blue;
+}
+
+
+.unit{
+	float:left;
+	background-color: gray;
+}
+
+.unit:nth-child(odd){
+	background-color: hotpink;
 }
