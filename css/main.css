@@ -30,3 +30,9 @@ body{
 	padding-left: 1em;
 	padding-right: 1em;
 }
+
+
+.img-flex{
+	width:100%;
+	display: block;
+}
